@@ -1,0 +1,73 @@
+body{
+    color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+li{
+    display: inline;
+}
+div{
+    color: black;
+}
+.container {
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    margin-left: 0px;
+    margin-right: 0px;
+}
+  
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+a.normal{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+a.normal:hover{ 
+    text-decoration: none;
+    color: blue;
+}
+img:hover{
+    transition: width .5s, height .5s;
+    width: 75px;
+    height: 75px;
+}
+nav{
+    margin-top: 10px;
+    margin-left: -50px;
+    margin-right: -10px;
+    background-color: black;
+    text-align: center;
+    width: inherit;
+    font-size: x-large;
+    
+}
+img.avatar{
+    border-radius: 50%;
+    border: solid white;
+}
+a{
+    text-align: center;
+    color: honeydew;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+p{
+    font-size: x-large;
+}
